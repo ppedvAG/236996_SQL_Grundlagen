@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL_Grundlagen_Abfragesprache_111223", "SQL_Grundlagen_Abfragesprache_111223\SQL_Grundlagen_Abfragesprache_111223.ssmssqlproj", "{9E8D1E1C-4E36-4D8D-BA6C-4AF1F3CA6C68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E8D1E1C-4E36-4D8D-BA6C-4AF1F3CA6C68}.Default|Default.ActiveCfg = Default
+		{28F83364-6B85-49D0-90DF-F1A12B0BBC10}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DE6D7CB-B8FC-4185-A2A4-FAF8DE3A84CB}
+	EndGlobalSection
+EndGlobal
