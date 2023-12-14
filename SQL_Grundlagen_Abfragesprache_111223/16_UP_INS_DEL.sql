@@ -120,6 +120,48 @@ select * from orders2 where customerid in (select customerid from customers wher
 update kunden set city = NULL where customerid = 'ALFKI'
 
 
+delete kunden where customerid = 'ALFKI'
+
+delete customers where customerid = 'PARIS'
+
+
+delete
+--select * 
+from  customers where customerid = 'ALFKI'
+
+--lösche alle Bestllungen aus orders2 die von einem Kunden aus Italy stammen
+
+--1. Abfrage ..betroffende DS finden...
+--2. delete mit Tabellenangabe über Select
+--3. from in nächste Zeile und Select  auskommentieren
+
+delete orders2
+--select * 
+from orders2 o inner join customers c on c.CustomerID=o.CustomerID
+where 
+	country = 'Italy'
+
+
+delete orders2 
+--select * 
+from orders2 o
+	INNER JOIN customers c ON o.CustomerID = c.CustomerID
+WHERE country = 'italy'
+
+
+select * from kunden --BLAUS
+--lösche die Stadt bei dem BLAUS
+
+update kunden set city = NULL where customerid = 'BLAUS'
+
+
+
+
+
+
+
+
+
 
 
 

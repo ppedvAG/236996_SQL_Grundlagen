@@ -68,8 +68,8 @@
           <FullPath>05_SET_Operatoren.sql</FullPath>
         </FileNode>
         <FileNode Name="06_Joins.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_Joins.sql</FullPath>
         </FileNode>
@@ -128,10 +128,16 @@
           <FullPath>15_Konstruktiuonen.sql</FullPath>
         </FileNode>
         <FileNode Name="16_UP_INS_DEL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_UP_INS_DEL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_UNION EXCEPT INTERSECT.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>16_UP_INS_DEL.sql</FullPath>
+          <FullPath>17_UNION EXCEPT INTERSECT.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
