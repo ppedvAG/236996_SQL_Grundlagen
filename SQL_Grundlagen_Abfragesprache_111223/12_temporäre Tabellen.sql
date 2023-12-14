@@ -1,4 +1,4 @@
-  --cool um komplexe Statements in einzelne nachvolluiehbarere Schritte umzubrechen
+  --cool um komplexe Statements in einzelne nachvolliehbarere Schritte umzubrechen
   --
  -- temp. Tabellen existieren nicht auf Dauer
  -- temporäre Tabellen  gibt es in #-Form und ## Form
