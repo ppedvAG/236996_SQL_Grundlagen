@@ -75,7 +75,7 @@ exec procname 10,5
 
  exec procdemo
 
-  create or alter proc procdemo   @par1 int
+ create or alter proc procdemo   @par1 int
  AS
  select 100	* @par1
  select 100*2
@@ -101,11 +101,26 @@ exec procname 10,5
   select	* from customers	where customerid = @CustId
   GO
 
-  exec gpKundedetails 'ALFKI'
+  exec gpKundedetails 'BLAUS'
 
   select * from  [Order Details]
   where 
 	orderid in (select orderid from orders where customerid = 'ALFKI')
+
+
+create or alter proc gpdemo20
+as
+select getdate()
+GO
+
+exec gpdemo20
+
+select 100
+GO 10
+
+
+
+
 
 
 

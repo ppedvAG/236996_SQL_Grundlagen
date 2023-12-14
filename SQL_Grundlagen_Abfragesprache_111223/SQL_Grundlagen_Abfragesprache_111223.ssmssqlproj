@@ -3,6 +3,18 @@
   <Items>
     <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
+          <Created>2023-12-14T10:32:27.5408101+01:00</Created>
+          <Type>SQL</Type>
+          <Server>BIGBEN</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="WIN11-PL2\SQLKURS:">
           <Created>2023-12-11T09:31:48.7523915+01:00</Created>
           <Type>SQL</Type>
@@ -86,10 +98,40 @@
           <FullPath>10_CASE.sql</FullPath>
         </FileNode>
         <FileNode Name="11_Unterabfragen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_Unterabfragen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_temporäre Tabellen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_temporäre Tabellen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_Views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Variablen und Prozeduren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_Variablen und Prozeduren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Konstruktiuonen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_Konstruktiuonen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_UP_INS_DEL.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>11_Unterabfragen.sql</FullPath>
+          <FullPath>16_UP_INS_DEL.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
