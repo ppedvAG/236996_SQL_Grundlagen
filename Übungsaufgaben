@@ -1,0 +1,36 @@
+Übungsaufgaben:
+1.
+Was war das meistverkaufte Produkt (Productname) im Jahr 1998 (OrderDate)? Wieviel Stück (Quantity)?
+
+2.
+In welcher Stadt (City) waren „Wimmers gute Semmelknödel“ am beliebtesten (Quantity)?
+
+3.
+Welcher Spediteur (Shippers) war durchschnittlich am günstigsten? (Freight)
+
+4. 
+Ist der Spediteur „Speedy Express“ über die Jahre durchschnittlich teurer geworden? (Freight pro Jahr)
+
+5.
+Bei welchem Produkt (Productname) würden wir den größten Umsatz machen, wenn wir sofort alle verfügbaren Einheiten (UnitsInStock) verkaufen würden?
+
+6.
+Gab es Bestellungen (OrderID) an Wochenendtagen (OrderDate)?
+
+7.
+Haben wir Produkteinheiten im Lager (UnitsInStock), die aber nicht mehr verkauft werden (Discontinued)? Wenn ja, wieviel „Geld“ liegt dort noch im Lager?
+
+8.
+Hat „Andrew Fuller“ (Employee) schonmal Produkte der Kategorie „Seafood“ (Categories) verkauft?
+Wenn ja, wieviel Lieferkosten sind dabei insgesamt entstanden (Freight)?
+
+9.
+„Zensiere“ alle Telefonnummern der Kunden (Phone): Es sollen immer nur noch die letzten 4 Ziffern/Symbole angezeigt werden. Alles davor soll mit einem X pro Symbol ersetzt werden.
+Beispiel: Phone „08677 9889 0“; danach „XXXXXXXX89 0“
+
+10.
+Hatten wir Bestellungen, bei denen wir zu spät geliefert haben (Unterschied zwischen RequiredDate und ShippedDate)? Wenn ja, wieviele Tage waren wir zu spät bei jeder dieser Bestellungen?
+
+11.
+Erstelle eine Procedure, der man als Parameter eine OrderID übergeben kann.
+Bei Ausführung soll der Rechnungsbetrag dieser Order ausgegeben werden (Quantity * UnitPrice + Freight).
