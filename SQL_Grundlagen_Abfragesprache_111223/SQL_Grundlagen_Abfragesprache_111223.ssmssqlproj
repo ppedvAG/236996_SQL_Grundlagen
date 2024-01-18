@@ -1,26 +1,14 @@
 <?xml version="1.0"?>
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL_Grundlagen_Abfragesprache_111223">
   <Items>
-    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
-          <Created>2023-12-14T10:32:27.5408101+01:00</Created>
-          <Type>SQL</Type>
-          <Server>BIGBEN</Server>
-          <UserName />
-          <Authentication>Windows-Authentifizierung</Authentication>
-          <InitialDB>Northwind</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="WIN11-PL2\SQLKURS:">
+        <ConnectionNode Name="WIN11-PL2\SQLKURS:DOM-PPA01\pl2">
           <Created>2023-12-11T09:31:48.7523915+01:00</Created>
           <Type>SQL</Type>
           <Server>WIN11-PL2\SQLKURS</Server>
           <UserName />
-          <Authentication>SQL</Authentication>
+          <Authentication>Windows Authentication</Authentication>
           <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
@@ -29,7 +17,7 @@
         </ConnectionNode>
       </Items>
     </LogicalFolder>
-    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="00_Intro.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
@@ -50,106 +38,63 @@
           <FullPath>02_WHERE.sql</FullPath>
         </FileNode>
         <FileNode Name="03_LIKE.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03_LIKE.sql</FullPath>
         </FileNode>
         <FileNode Name="04_Datentypen.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04_Datentypen.sql</FullPath>
         </FileNode>
         <FileNode Name="05_SET_Operatoren.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_SET_Operatoren.sql</FullPath>
         </FileNode>
         <FileNode Name="06_Joins.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_Joins.sql</FullPath>
         </FileNode>
         <FileNode Name="07_Uebungen.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>07_Uebungen.sql</FullPath>
         </FileNode>
         <FileNode Name="08_Aggregate.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>08_Aggregate.sql</FullPath>
         </FileNode>
         <FileNode Name="09_SysFunctions.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>09_SysFunctions.sql</FullPath>
         </FileNode>
         <FileNode Name="10_CASE.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>10_CASE.sql</FullPath>
         </FileNode>
         <FileNode Name="11_Unterabfragen.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11_Unterabfragen.sql</FullPath>
         </FileNode>
-        <FileNode Name="12_temporäre Tabellen.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>12_temporäre Tabellen.sql</FullPath>
-        </FileNode>
-        <FileNode Name="13_Views.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>13_Views.sql</FullPath>
-        </FileNode>
-        <FileNode Name="14_Variablen und Prozeduren.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>14_Variablen und Prozeduren.sql</FullPath>
-        </FileNode>
-        <FileNode Name="15_Konstruktiuonen.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>15_Konstruktiuonen.sql</FullPath>
-        </FileNode>
-        <FileNode Name="16_UP_INS_DEL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>16_UP_INS_DEL.sql</FullPath>
-        </FileNode>
-        <FileNode Name="17_UNION EXCEPT INTERSECT.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>17_UNION EXCEPT INTERSECT.sql</FullPath>
-        </FileNode>
       </Items>
     </LogicalFolder>
-    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items>
-        <FileNode Name="Northwind_SQL_Skript.txt">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>Northwind_SQL_Skript.txt</FullPath>
-        </FileNode>
-      </Items>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

@@ -23,13 +23,14 @@
 	Aggregatfunktionen
 	GROUP BY + HAVING
 	CASE
+	Unterabfragen
 
 	Tag 3:
 	INSERT/UPDATE/DELETE/CREATE usw
 	Views
-	Stored Procdures
+	Stored Procedures
 	Temporäre Tabellen
-	Unterabfragen
+	
 
 	Wenn Zeit übrig...
 	WHILE
